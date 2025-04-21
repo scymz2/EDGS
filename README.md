@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://compvis.github.io/EDGS/"><img src="https://img.shields.io/badge/Project-Page-blue" alt="Project Page"></a>
-  <a href="https://arxiv.org/pdf/??????"><img src="https://img.shields.io/badge/arXiv-PDF-b31b1b" alt="Paper"></a>
+  <a href="https://arxiv.org/pdf/2504.13204"><img src="https://img.shields.io/badge/arXiv-PDF-b31b1b" alt="Paper"></a>
   <a href="https://colab.research.google.com/github/CompVis/EDGS/blob/main/notebooks/fit_model_to_scene_full.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
   <a href="https://huggingface.co/spaces/magistrkoljan/EDGS"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue" alt="Hugging Face"></a>
 </p>
@@ -212,9 +212,17 @@ source.corr_init.init_gaussians_with_corr(...)
 
 <a id="sec-citation"></a>
 ## 📄 Citation
-
-> _Coming soon..._
-
+```bibtex
+@misc{kotovenko2025edgseliminatingdensificationefficient,
+      title={EDGS: Eliminating Densification for Efficient Convergence of 3DGS}, 
+      author={Dmytro Kotovenko and Olga Grebenkova and Björn Ommer},
+      year={2025},
+      eprint={2504.13204},
+      archivePrefix={arXiv},
+      primaryClass={cs.GR},
+      url={https://arxiv.org/abs/2504.13204}, 
+}
+```
 ---
 
 # TODO:
