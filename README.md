@@ -83,8 +83,10 @@ export CUDA_HOME=/usr/local/cuda-12.1
 export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
 export PATH=$CUDA_HOME/bin:$PATH
 
+# 以下步骤总是不成功， 可替换为 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia -y
-conda install nvidia/label/cuda-12.1.0::cuda-toolkit -y
+conda install nvidia/label/cuda-12.1.0::cuda-toolkit -y # 这一步我们本地有CUDA12.1就不用再装了，以后请记住
+
 
 pip install -e submodules/gaussian-splatting/submodules/diff-gaussian-rasterization
 pip install -e submodules/gaussian-splatting/submodules/simple-knn
